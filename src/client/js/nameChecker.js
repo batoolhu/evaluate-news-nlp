@@ -15,5 +15,10 @@ function checkForName(inputText) {
         alert("Enter a valid captain name");
     }
 }
+// nameChecker.js
+const validateURL = (url) => {
+    const regex = /^(https?|ftp):\/\/[^\s/$.?#].[^\s]*$/i;
+    return regex.test(url);
+  };
 
-export { checkForName };
+  module.exports = { validateURL };

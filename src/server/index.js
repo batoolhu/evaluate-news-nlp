@@ -1,9 +1,11 @@
-// Import required dependencies
-const express = require('express');
-const bodyParser = require('body-parser');
-const axios = require('axios');
-const cheerio = require('cheerio');
-const cors = require('cors');
+
+import express from 'express';
+import path from 'path';
+import bodyParser from 'body-parser';
+import * as cheerio from 'cheerio';
+import axios from 'axios';
+import cors from 'cors';
+
 
 // Initialize the Express application
 const app = express();

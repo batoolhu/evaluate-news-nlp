@@ -1,8 +1,8 @@
-// js files
+
 import { handleSubmit } from './js/formHandler'
     alert("I EXIST");
 
-// console.log("CHANGE!!");
+
 
 import './styles/resets.scss'
 import './styles/base.scss'
